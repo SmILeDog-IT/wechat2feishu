@@ -1,0 +1,3 @@
+# Only needed on the Windows machine producing the EXE.
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.9

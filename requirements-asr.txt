@@ -1,0 +1,11 @@
+# 可选依赖 —— 语音消息转文字（本地 SenseVoice 模型）
+#
+# 不装也能正常导出：语音会照常导出成 WAV，只是不带文字稿。
+# 体积约 200 MB+，所以和核心依赖分开放。
+#
+# 安装：  双击 安装语音识别.bat
+# 手动：  venv\Scripts\python.exe -m pip install -r requirements-asr.txt
+#         之后还要下载模型：venv\Scripts\python.exe cli.py --install-asr
+
+sherpa-onnx==1.13.6
+soundfile>=0.12,<1

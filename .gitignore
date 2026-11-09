@@ -1,0 +1,41 @@
+# 忽略运行时与大文件
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 导出产物：含真实聊天记录，绝不能进仓库
+exports/
+inbox/
+clean/
+media/
+
+# 密钥与本地配置
+.env
+.env.*
+config.json
+*.local.json
+
+# 运行日志与调试残留
+*.log
+_debug*
+.push_state.db
+*.db
+*.sqlite
+
+# 模型与缓存
+models/
+cache/
+
+# 打包产物
+*.exe
+dist/
+build/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

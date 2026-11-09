@@ -1,0 +1,25 @@
+wechat-to-feishu
+Copyright 2026 wangshujian
+
+本项目以 Apache License 2.0 发布，完整条款见同目录 LICENSE 文件。
+
+代码组成说明
+------------
+
+1. 上游部分：app.py / cli.py / exporter_core.py / preview.py / wechat_data_dirs.py
+   以及 tests/ 下的测试用例，来自 zhuzhangxue/wechat-chat-export
+   (https://github.com/zhuzhangxue/wechat-chat-export)，遵循 Apache License 2.0，
+   版权归其原作者所有。
+
+2. 本项目新增：app_feishu.py、scripts/、SKILL.md、references/、assets/
+   以及根目录文档，由 wangshujian 编写并同样以 Apache License 2.0 发布。
+
+3. 运行时依赖与可选组件（wechatauto-replica、rust-silk、sherpa-onnx、
+   SenseVoice 模型等）的许可证与来源，见 THIRD_PARTY_NOTICES.md。
+   这些组件不包含在本仓库中，由使用者在自己的环境中安装。
+
+免责
+----
+
+本项目与腾讯、微信及其关联公司没有任何隶属、授权、认可或合作关系。
+微信、WeChat、Weixin 及相关商标归其各自权利人所有。
